@@ -1,87 +1,92 @@
 *{
-  margin: 0;
-  padding: 0;
-  font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0;
+    padding: 0;
+
 }
+
 :root{
-  --primary-color:rgb(32 98 175);
+    --primary-color:#1D4ED8;
+    --secondary-color:#1d4ed808;
 }
 
-.undrawImg img{
-  height: 300px;
-  display: block;
-  margin: auto;
-}
-
-.listone{
-  text-align: right
-  ;
-}
-
-/* Utility Classes */
-.text-center{
-  text-align: center;
-}
-
-.flex{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cards img{
-  height: 90px;
-}
-
-.grid{
-  display: grid;
-  grid-template-columns:2fr 1fr;
-}
-
-.navbar{
-  background-color: var(--primary-color);
-  border-bottom-left-radius: 1rem;
-  color: white;
-  justify-content: space-between;
-  height: 80px;
-  width: 100%;
-}
-.navbar li{
-  list-style: none;
-}
+/* NAVIGATION */
+.navigation{
+    background-color: var(--primary-color);
+    color: rgb(250, 245, 245);
+    
 
 
-.navbar li a{
-color: white;
-text-decoration: none;
-padding: 0.5rem;
-font-size: 1rem;
-text-align: right;
 }
 
-.one{
-  height: 350px;
-  padding:1rem;
+nav ul{
+    text-align: right;
+    margin-right: 17px;
 }
 
-/* .two{
-  background-color: var(--primary-color);
-} */
-.lang{
-  padding: 0.8rem;
-
+nav li{
+list-style: none;
+display: inline;
 }
-.lang img{
-  padding: 0.5rem;
-  box-shadow: 1px 1px 7px black;
-  border-radius: .3rem;
 
-}
-.lang :hover{
-transform: translateY(-13px);
+.main-links{
+    color: white;
+    text-decoration: none;
+    padding:1rem;
+    font-size: 1.2rem;
 }
 
 .brand-heading{
-  padding: 0.5rem 1rem;
+    padding: 5px 1rem;
 }
 
+/* Section one */
+
+.one{
+    background-color:var(--secondary-color);
+}
+.main-img img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+/* Section Two */
+.two{
+    padding-top: 13px;
+    background-color:var(--secondary-color);
+}
+
+.two h2{
+font-size: 2rem;
+}
+
+.cards img{
+    height: 50px;
+  }
+  .lang{
+    padding: 0.8rem;
+  
+  }
+  .lang img{
+    padding: 0.5rem;
+    box-shadow: 1px 1px 7px rgba(8, 4, 4, 0.555);
+    border-radius: 7px;
+  
+  }
+  .lang :hover{
+  transform: translateY(-13px);
+  }
+
+/* Utility Classes */
+.text-center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
