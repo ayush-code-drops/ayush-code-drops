@@ -26,7 +26,7 @@
 </div>
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://raja-choudhary-portfp/)
+[![portfolio](https://ayush-agrawalportfolio.netlify.app/)
 
 ## 🔗 Connect with me:
 <span align="left">
