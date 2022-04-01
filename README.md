@@ -55,7 +55,7 @@
     <p align="center" >
         <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ayush-code-drops&show_icons=true&locale=en&layout=compact"
             alt="suryakant" width="410" height="200px" />
-        &nbsp;<img src="https://github-readme-stats.vercel.app/api?username=rajachoudhary&show_icons=true&locale=en"
-            alt="suryakant" width="410" height="200px" />
+        &nbsp;<img src="https://github-readme-stats.vercel.app/api?username=ayush-code-drops&show_icons=true&locale=en"
+            alt="ayush" width="410" height="200px" />
     </p>
 
